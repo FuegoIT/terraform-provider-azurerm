@@ -31,7 +31,6 @@ resource "azurerm_container_group" "example" {
     image  = "microsoft/aci-helloworld:latest"
     cpu    = "0.5"
     memory = "1.5"
-    port   = "80"
   }
 
   container {
